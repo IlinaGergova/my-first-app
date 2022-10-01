@@ -1,3 +1,14 @@
 h1 {
-    color: blueviolet
+    color: blueviolet;
+    margin-bottom: 2rem;
+}
+
+input {
+    background-color: rgb(203, 222, 255);
+    margin-bottom: 2rem;
+}
+
+h3 {
+    color: darkmagenta;
+    transform: rotate(5deg);
 }
