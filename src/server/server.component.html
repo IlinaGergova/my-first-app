@@ -1,5 +1,6 @@
 <p>i am nested server</p>
 <p>Some "dynamic" data output: </p>
-<p [ngStyle]="{'background-color':getColor()}">Server with name <b>{{getServerName()}}</b> and ID <b>{{ serverId }}</b>
+<p [ngStyle]="{'background-color':getColor()}" [ngClass]="{online:serverStatus === 'online'}">Server with name
+    <b>{{getServerName()}}</b> and ID <b>{{ serverId }}</b>
     is <b>{{ serverStatus }}</b></p>
 <hr>
