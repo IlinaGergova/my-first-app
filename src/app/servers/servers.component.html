@@ -1,7 +1,7 @@
 <p>the (nested) servers' components</p>
 <!-- <app-server></app-server>
 <app-server></app-server> -->
-<app-server *ngFor="let server of servers"></app-server>
+<app-server *ngFor="let server of servers" [serverName]="server"></app-server>
 <hr>
 <label>Server name</label>
 <!-- <input type="text" class="form-control" (input)="updateServerName($event)"> -->
